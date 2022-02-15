@@ -1,0 +1,18 @@
+Hello this is the process of the uploading a website on the internet as by oklabs 
+today we are starting to learn how to deploy a website on the internet 
+
+first process is the upload folder to the github
+1. staging
+git init
+git remote add origin {link of git repository}
+git add .
+2. Commiting
+git commit -m "myfirst project"
+{
+    sometimes by doing this you can see the author related errror
+    so we first do some config 
+    git config --global user.email "abc@gmail.com"
+    git config --global user.name "Your Name" 
+
+}
+3. Pust
